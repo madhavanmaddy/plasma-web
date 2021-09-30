@@ -44,8 +44,8 @@ body{
     background-color: rgba(252,198,197,50%);
     width: max-content;
     text-align-last: center;
-    margin: 30vh 50vw 43vh 30vw;
-    padding: 3vh 3vh -1vh 3vh;
+    margin: 30vh 50vw 42vh 30vw;
+    padding: 3vh 3vh 0vh 3vh;
     height: min-content;
 }
 
