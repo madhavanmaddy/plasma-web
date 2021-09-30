@@ -2,6 +2,8 @@
     width: 100%;
     height: 12vh;
     background-color: black;
+    position: fixed;
+    top: 0;
 }
 *{
     outline: none;
@@ -25,11 +27,10 @@ a:hover{
     color: #FFF;
 }
 body{
-    height: 100%;
-    overflow: hidden;
+    height: auto;
     background-image: url("./assets/background.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
 }
 
 .nav-items{
@@ -43,9 +44,28 @@ body{
     background-color: rgba(252,198,197,50%);
     width: max-content;
     text-align-last: center;
-    margin: 30vh 50vw 50vh 30vw;
-    padding: 3vh 3vh 3vh 3vh;
+    margin: 30vh 50vw 42.5vh 30vw;
+    padding: 3vh 3vh 0vh 3vh;
     height: min-content;
+}
+
+.about{
+    height: 90vh;
+    background-color: black;
+}
+
+.gallery{
+    height: 90vh;
+}
+
+.procedure{
+    height: 90vh;
+    background-color: red;
+}
+
+.contact{
+    height: 90vh;
+    background-color: black;
 }
 
 .title{

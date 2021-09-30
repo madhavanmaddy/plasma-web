@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<html>
 <head>
     <title>Plasma Compendium</title>
     <link rel="stylesheet" href="./styles.css">
@@ -30,27 +30,27 @@
             </div>
             <div class="nav-items">
                 <div>
-                    <a href="#" class="tabs">
+                    <a href="javascript:void(0)" class="tabs" onclick="scrollToPart(0)">
                         Home
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="tabs">
+                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(850)">
                         About
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="tabs">
+                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(1700)">
                         Gallery
                     </a>
-                </div>
+                </div>  
                 <div>
-                    <a href="#" class="tabs">
+                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(2550)">
                         Procedure for Donation
                     </a>
                 </div>
                 <div>
-                    <a href="#" class="tabs">
+                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(3400)">
                         Contact us
                     </a>
                 </div>
@@ -68,5 +68,20 @@
             HEROS IN DISGUISE
         </div>
     </div>
+    <div class="about">
     </div>
+    <div class="gallery"></div>
+    <div class="procedure"></div>
+    <div class="contact"></div>
+    </div>
+    <script>
+        function scrollToPart(height){
+            window.scrollTo({
+                top: height,
+                left : 0,
+                behavior: "smooth"
+            })
+        }
+    </script>
 </body>
+</html>
