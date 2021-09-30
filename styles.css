@@ -44,14 +44,22 @@ body{
     background-color: rgba(252,198,197,50%);
     width: max-content;
     text-align-last: center;
-    margin: 30vh 50vw 42.5vh 30vw;
+    margin: 30vh 50vw 42.9vh 30vw;
     padding: 3vh 3vh 0vh 3vh;
     height: min-content;
 }
 
+.gap{
+    height: 12vh;
+    background-color: black;
+}
+
 .about{
     height: 90vh;
-    background-color: black;
+    background-color: red;
+    padding-top: -12vh;
+    margin: red;
+    
 }
 
 .gallery{
@@ -61,7 +69,7 @@ body{
 
 .procedure{
     height: 90vh;
-    background-color: black;
+    background-color: red;
 }
 
 .contact{
