@@ -56,11 +56,12 @@ body{
 
 .gallery{
     height: 90vh;
+    background-color: black;
 }
 
 .procedure{
     height: 90vh;
-    background-color: red;
+    background-color: black;
 }
 
 .contact{

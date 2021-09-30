@@ -30,27 +30,27 @@
             </div>
             <div class="nav-items">
                 <div>
-                    <a href="javascript:void(0)" class="tabs" onclick="scrollToPart(0)">
+                    <a href="index.html" class="tabs">
                         Home
                     </a>
                 </div>
                 <div>
-                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(850)">
+                    <a href="index.html#about"  class="tabs">
                         About
                     </a>
                 </div>
                 <div>
-                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(1700)">
+                    <a href="index.html#gallery"  class="tabs" >
                         Gallery
                     </a>
                 </div>  
                 <div>
-                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(2550)">
+                    <a href="index.html#procedure"  class="tabs">
                         Procedure for Donation
                     </a>
                 </div>
                 <div>
-                    <a href="javascript:void(0)"  class="tabs" onclick="scrollToPart(3400)">
+                    <a href="index.html#contact"  class="tabs">
                         Contact us
                     </a>
                 </div>
@@ -68,13 +68,55 @@
             HEROS IN DISGUISE
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
+        <div class="welcome">
+            WELCOME TO AbOUT
+        </div>
+        <div class="title">
+            Plasma Compendium
+        </div>
+        <div class="heros">
+            HEROS IN DISGUISE
+        </div>
     </div>
-    <div class="gallery"></div>
-    <div class="procedure"></div>
-    <div class="contact"></div>
+    <div class="gallery" id="gallery">
+        <div class="welcome">
+            WELCOME TO Gallery
+        </div>
+        <div class="title">
+            Plasma Compendium
+        </div>
+        <div class="heros">
+            HEROS IN DISGUISE
+        </div>
+    </div>
+    <div class="procedure" id="procedure">
+        <div class="welcome">
+            WELCOME TO Procedure
+        </div>
+        <div class="title">
+            Plasma Compendium
+        </div>
+        <div class="heros">
+            HEROS IN DISGUISE
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="welcome">
+            WELCOME TO Contact
+        </div>
+        <div class="title">
+            Plasma Compendium
+        </div>
+        <div class="heros">
+            HEROS IN DISGUISE
+        </div>
+    </div>
     </div>
     <script>
+        function customScroll(){
+            document.getElementsByClassName("about").scrollIntoView();
+        }
         function scrollToPart(height){
             window.scrollTo({
                 top: height,
