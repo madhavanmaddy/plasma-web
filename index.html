@@ -148,30 +148,34 @@
     </div>
     <div class="gap" id="gallery-gap"></div>
     <div class="gallery" id="gallery">
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588690328.jpg') ;"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588690533.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588695236.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588695368.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588695429.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588695548.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588695627.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588700481.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588703078.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588706492.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588706548.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/IMG-20210914-WA0001.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/IMG-20210914-WA0002.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/IMG-20210921-WA0015.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/IMG-20210921-WA0016.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588710372.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588710428.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588713368.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588713410.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588713481.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588713617.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588697663.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588697736.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('./assets/Donation Pics/1632588697814.jpg')"></div>
+        <div id="under" class="slideshow-container" >
+
+            <div class="mySlides">
+
+              <img src="assets\Donation Pics\1632588690328.jpg" class="donimage">
+            </div>
+            
+            <div class="mySlides">
+              
+              <img src="assets\Donation Pics\1632588700481.jpg" class="donimage">
+            </div>
+            
+            <div class="mySlides">
+              
+              <img src="assets\Donation Pics\1632588706548.jpg" class="donimage">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
 
     </div>
     <div class="gap" id="procedure-gap"></div>
@@ -267,6 +271,38 @@
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: "smooth" })
         }
+
+        //Slideshow
+
+        var slideIndex = 1;
+        showSlides();
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
 
     </script>
 </body>
