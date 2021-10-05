@@ -89,14 +89,15 @@ body{
 .contact-content{
     color: white;
     font-size: 1vw;
-    margin: 10vh 20vw 30vh 30vw;
+    margin: 30vh 20vw 10vh 30vw;
 }
 
 .procedure-content{
-    float: left;
+    /* float: left;  */
     width: 45vw;
     color: white;
     font-size: 1vw;
+    margin-left: 50px;
     padding: 5px 5px 5px 50px;
 }
 
@@ -106,6 +107,7 @@ body{
 
 #vallam-incident{
     float: right;
+    font-size: 1.5vw;
 }
 
 .row:after {
