@@ -84,7 +84,7 @@ body{
     float: left;
     width: 45vw;
     color: white;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 .contact-content{
@@ -97,7 +97,7 @@ body{
     /* float: left;  */
     width: 45vw;
     color: white;
-    font-size: 1vw;
+    font-size: 1.25vw;
     margin-left: 50px;
     padding: 5px 5px 5px 50px;
 }
