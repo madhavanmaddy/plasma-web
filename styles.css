@@ -93,6 +93,10 @@ body{
     margin: 30vh 20vw 10vh 30vw;
 }
 
+.media{
+    
+}
+
 .procedure-content{
     /* float: left;  */
     width: 45vw;
@@ -118,9 +122,8 @@ body{
     }
 
 .gallery{
-    padding-left: 1.5vw;
-    height: 90vh;
-    background-color: black;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
 }
 
 .procedure{ 
@@ -131,8 +134,14 @@ body{
 
 
 .contact{
-    height: 50vh;
-    background-color: black;
+    height: 58vh;
+    /* background-color: black; */
+}
+
+.back{
+    /* background: url('assets/Blood-Donation-1.jpg');   */
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .title{
@@ -186,10 +195,34 @@ body{
     text-align:center;
     vertical-align: center;
 }
+
+.mySlidesdon {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    max-height: 450px;
+    margin: auto;
+    text-align:center;
+    vertical-align: center;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
 .donimage {
     margin: auto;
-    max-width: 800px;
-    max-height: 550px; 
+    max-width: 600px;
+    max-height: 450px; 
+    padding-top:15vh;
     text-align:center;
     align-items: center;
     position: relative;   
@@ -199,7 +232,7 @@ body{
 .slideshow-container {
     align-items: center;
   
- width:800px;
+  width:800px;
   height: 550px;
   position: relative;
   margin: auto;
