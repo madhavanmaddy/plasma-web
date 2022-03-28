@@ -42,6 +42,38 @@ body{
         background-repeat: no-repeat;
         background-size: 100vw 100vh;
     }
+    .about-content{
+        background-color: black;
+        margin-left: 2vw;
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.25vw;
+    }
+    #vallam-incident{
+        float: right;
+        font-size: 1.5vw;
+    }
+    .procedure-content{
+        /* float: left;  */
+        background-color: black;
+        margin-left: 2vw;
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.25vw;
+    }
+    #note-for-donors{
+        /* float: right; */
+        font-size: 1.5vw;
+    }
+    .gap{
+        height: 12vh;
+        background-color: black;
+    }
+    
 }
 
 /* Laptop md */
@@ -54,6 +86,38 @@ body{
         background-image: url("./assets/background.jpeg");
         background-size: cover;
     }
+    .about-content{
+        background-color: black;
+        margin-left: 75%; 
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.5em;
+    }
+    #vallam-incident{
+        /* float: right; */
+        font-size: 1.5em;
+    }
+    .procedure-content{
+        background-color: black;
+        margin-left: 5%; 
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.25em;
+    }
+    
+    #note-for-donors{
+        /* float: right; */
+        font-size: 1.25em;
+    }
+    .gap{
+        height: 12vh;
+        background-color: black;
+    }
+    
 }
 
 /* Mobile */
@@ -66,6 +130,37 @@ body{
         background-image: url("./assets/background.jpeg");
         background-size: cover;
     }
+    .about-content{
+        background-color: black;
+        margin-left: 75%; 
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.5em;
+    }
+    #vallam-incident{
+        /* float: right; */
+        font-size: 1.5em;
+    }
+    .procedure-content{
+        background-color: black;
+        margin-left: 75%; 
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.25em;
+    }
+    
+    #note-for-donors{
+        font-size: 1.25em;
+    }
+    .gap{
+        height: 12vh;
+        background-color: black;
+    }
+    
 }
 .nav-items{
     padding: 0px 15px 15px 15px;
@@ -86,11 +181,6 @@ body{
     /* height: min-content; */
 }
 
-.gap{
-    height: 12vh;
-    background-color: black;
-}
-
 .about{
     margin-top: 0px;
     height: 90vh;
@@ -108,7 +198,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;    
 }
-
+/* 
 .about-content{
     background-color: black;
     margin-left: 2vw;
@@ -117,34 +207,12 @@ body{
     width: 45vw;
     color: white;
     font-size: 1.25vw;
-}
+} */
 
 .contact-content{
     color: white;
     font-size: 1vw;
     margin: 30vh 20vw 10vh 30vw;
-}
-
-.media{
-    
-}
-
-.procedure-content{
-    /* float: left;  */
-    width: 45vw;
-    color: white;
-    font-size: 1.25vw;
-    margin-left: 50px;
-    padding: 5px 5px 5px 50px;
-}
-
-#note-for-donors{
-    float: right    ;
-}
-
-#vallam-incident{
-    float: right;
-    font-size: 1.5vw;
 }
 
 .row:after {
