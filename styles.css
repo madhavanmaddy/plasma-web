@@ -318,7 +318,7 @@ body{
         width: max-content;
         text-align-last: center;
         top: 50%;
-        left: 35%;
+        left: 50%;
         transform: translate(-50%, -50%);
         padding: 3vh 3vh 0vh 3vh;
         /* height: min-content; */
