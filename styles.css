@@ -145,7 +145,7 @@ body{
 
 /* Laptop md */
 
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) and (orientation : landscape) {
     .tabs{
         padding: 0px 15px 0px 15px;
         color: #FFF;
@@ -261,7 +261,7 @@ body{
 }
 
 /* Mobile */
-@media only screen and (min-device-width: 300px) and (max-device-width: 768px)
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: portrait)
 {
     .tabs{
         padding: 0px 15px 0px 15px;
@@ -279,6 +279,9 @@ body{
     background-color: black;
     
 }
+.conheight{
+    height: 1800px;;
+}
     .bg-img{
         height: 100%;
         width: 90vh;
@@ -294,11 +297,11 @@ body{
         margin-left: 10vw;
         margin-right: 10vw;
         color: white;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     #vallam-incident{
         /* float: right; */
-        font-size: 2em;
+        font-size: 2.5em;
 
     }
     .procedure-content{
@@ -326,6 +329,7 @@ body{
         top: 50%;
         left: 45%;
         transform: translate(-50%, -50%);
+        font-size: 3em;
         padding: 3vh 3vh 0vh 3vh;
         /* height: min-content; */
     }
@@ -351,7 +355,7 @@ body{
         margin-left: 20%;
     }
     .contact{
-        height: 20vh;
+        height: 30vh;
         /* background-color: black; */
     }
     .gallery-item{
