@@ -1,493 +1,535 @@
-.navbar-nav{
-    width: 100%;
-    height: 12vh;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+.navbar-nav {
+  width: 100%;
+  height: 12vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
-*{
-    outline: none;
-    border: 0px;
-    /* background-color: black; */
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif
+* {
+  outline: none;
+  border: 0px;
+  /* background-color: black; */
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
-body{
-    overflow-x: hidden;
-    height: 100%;
+body {
+  overflow-x: hidden;
+  height: 100%;
 }
 /* Laptop bg */
-@media only screen and (min-device-width : 1441px) and (max-device-width : 2460px) {
-    html{
-        height: 100%;
-    }
-    .tabs{
-        padding: 0px 15px 0px 15px;
-        color: #FFF;
-        text-decoration: none;
-        font-size: larger;
-    }
-    .tabs:hover{
-        text-decoration: none;
-        color: #FFF;
-    }
-.about{
+@media only screen and (min-device-width: 1441px) and (max-device-width: 2460px) {
+  html {
+    height: 100%;
+  }
+  .tabs {
+    padding: 0px 15px 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+  }
+  .tabs:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .about {
     margin-top: 0px;
     height: 90vh;
     background-color: black;
-    
-}
-    .bg-img{
-        height: 100vh;
-        width: 100%;
-        /* background-color: black; */
-        background-image: url("./assets/background.jpeg");
-        background-repeat: no-repeat;
-        background-size: 100vw 100vh;
-    }
-    .about-content{
-        background-color: black;
-        margin-left: 2vw;
-        padding: 5px 5px 5px 50px;
-        float: left;
-        width: 45vw;
-        color: white;
-        font-size: 1.25vw;
-    }
-    #vallam-incident{
-        float: right;
-        font-size: 1.5vw;
-    }
-    .procedure-content{
-        /* float: left;  */
-        background-color: black;
-        margin-left: 2vw;
-        padding: 5px 5px 5px 50px;
-        float: left;
-        width: 45vw;
-        color: white;
-        font-size: 1.25vw;
-    }
-    #note-for-donors{
-        /* float: right; */
-        font-size: 1.5vw;
-    }
-    .gap{
-        height: 12vh;
-        background-color: black;
-    }
-    .title-box{
-        position: relative;
-        background-color: rgba(252,198,197,50%);
-        width: max-content;
-        text-align-last: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 3vh 3vh 0vh 3vh;
-        /* height: min-content; */
-    }
-    .frame{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1300px;
-        height: 600px;
-        background-color: rgb(0, 0, 0);
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-    }
-    .gallery{
-        height: 80vh;
-        background-color: rgb(0, 0, 0);
-    }
-    .contact-content{
-        color: white;
-        font-size: 1vw;
-        margin: 30vh 20vw 10vh 30vw;
-    }
-    .contact{
-        height: 58vh;
-        /* background-color: black; */
-    }
-    .gallery-item{
-        border-radius: 10px;
-        float: left;
-        height: 18vh;
-        width: 15vw;
-        margin: 10px 10px 10px 10px;
-        background-color: red;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;    
-    }
-    .mySlidesdon {
-        display: flex;
-        align-items: center;
-        max-width: 600px;
-        max-height: 450px;
-        margin: auto;
-        text-align:center;
-        vertical-align: center;
-    }
-    #symbol{
-        font-size:50px;
-    }
-}
-
-/* Laptop md */
-
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1440px){
-    html{
-        height: 100%;
-    }
-    .tabs{
-        padding: 0px 15px 0px 15px;
-        color: #FFF;
-        text-decoration: none;
-        font-size: larger;
-    }
-    .tabs:hover{
-        text-decoration: none;
-        color: #FFF;
-    }  
-.about{
-    margin-top: 0px;
-    height: 90vh;
+  }
+  .bg-img {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url('./assets/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+  .about-content {
     background-color: black;
-    
-}
-    .bg-img{
-        height: 100vh;
-        width: 200vh;
-        background-repeat: no-repeat;
-        background-image: url("./assets/background.jpeg");
-        background-size: cover;
-    }
-    .about-content{
-        background-color: black;
-        margin-left: 75%; 
-        padding: 5px 5px 5px 50px;
-        float: left;
-        width: 45vw;
-        color: white;
-        font-size: 1.5em;
-    }
-    #vallam-incident{
-        /* float: right; */
-        font-size: 1.5em;
-    }
-    .procedure-content{
-        background-color: black;
-        margin-left: 5%; 
-        padding: 5px 5px 5px 50px;
-        float: left;
-        width: 45vw;
-        color: white;
-        font-size: 1.25em;
-    }
-    
-    #note-for-donors{
-        /* float: right; */
-        font-size: 1.25em;
-    }
-    .gap{
-        height: 12vh;
-        background-color: black;
-    }
-    .title-box{
-        position: relative;
-        background-color: rgba(252,198,197,50%);
-        width: max-content;
-        text-align-last: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 3vh 3vh 0vh 3vh;
-        /* height: min-content; */
-    }
-    .frame{
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        width: 1300px;
-        height: 600px;
-        background-color: rgb(0, 0, 0);
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-    }
-    .gallery{
-        height: 40vh;
-        background-color: rgb(0, 0, 0);
-    }
-    .contact-content{
-        color: white;
-        font-size: 1vw;
-        margin: 30vh 20vw 10vh 30vw;
-    }
-    .contact{
-        height: 58vh;
-        /* background-color: black; */
-    }
-    .gallery-item{
-        border-radius: 10px;
-        float: left;
-        height: 18vh;
-        width: 15vw;
-        margin: 10px 10px 10px 10px;
-        background-color: red;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;    
-    }
-    .mySlidesdon {
-        display: flex;
-        align-items: center;
-        max-width: 600px;
-        max-height: 450px;
-        margin: auto;
-        text-align:center;
-        vertical-align: center;
-    }
-    #symbol{
-        font-size: 50px;
-    }
-}
-
-/* Mobile */
-@media only screen and (orientation:portrait) and (min-device-width: 300px) and (max-device-width: 768px)
-{
-    html{
-        height: 100%;
-    }
-    .tabs{
-        padding: 0px 15px 0px 15px;
-        color: #FFF;
-        text-decoration: none;
-        font-size: 2em;
-    }
-    .tabs:hover{
-        text-decoration: none;
-        color: #FFF;
-    }
-.about{
-    margin-top: 0px;
-    height: 75vh;
+    margin-left: 2vw;
+    padding: 5px 5px 5px 50px;
+    float: left;
+    width: 45vw;
+    color: white;
+    font-size: 1.25vw;
+  }
+  #vallam-incident {
+    float: right;
+    font-size: 1.5vw;
+  }
+  .procedure-content {
+    /* float: left;  */
     background-color: black;
-    
-}
-.conheight{
-    height: 120vh;
-}
-    .bg-img{
-        height: 100%;
-        width: 90vh;
-        background-repeat: no-repeat;
-        background-image: url("./assets/background.jpeg");
-        background-size: cover;
-    }
-    .about-content{
-        background-color: black;
-        padding: 7px 7px 7px 1px;
-        width: 130%;
-        height: auto;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        color: white;
-        font-size: 2.5em;
-    }
-    #vallam-incident{
-        /* float: right; */
-        font-size: 2.5em;
-
-    }
-    .procedure-content{
-        background-color: black;
-        margin-left: 75%; 
-        padding: 5px 5px 5px 50px;
-        float: left;
-        width: 45vw;
-        color: white;
-        font-size: 1.25em;
-    }
-    
-    #note-for-donors{
-        font-size: 1.25em;
-    }
-    .gap{
-        height: 12vh;
-        background-color: black;
-    }
-    .title-box{
-        position: relative;
-        background-color: rgba(252,198,197,50%);
-        width: max-content;
-        text-align-last: center;
-        top: 50%;
-        left: 45%;
-        transform: translate(-50%, -50%);
-        font-size: 3em;
-        padding: 3vh 3vh 0vh 3vh;
-        /* height: min-content; */
-    }
-    .frame{
-        display: flex;
-        margin-left: 5%;
-        justify-content: left;
-        align-items: center;
-        width: 1500px;
-        height: 800px;
-        background-color: rgb(0, 0, 0);
-        position: relative;
-    }
-    .gallery{
-        height: 40vh;
-        width: 90vh;
-        background-color: rgb(0, 0, 0);
-    }
-    .contact-content{
-        color: white;
-        font-size: 2em;
-        margin-top: auto;
-        margin-left: 20%;
-    }
-    .contact{
-        height: 30vh;
-        /* background-color: black; */
-    }
-    .gallery-item{
-        border-radius: 10px;
-        float: left;
-        height: 18vh;
-        width: 15vw;
-        margin: 10px 10px 10px 10px;
-        background-color: red;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;    
-    }
-    .mySlidesdon {
-        max-width: 1300px;
-        max-height: 600px;
-    }
-    #symbol{
-        font-size:100px;
-    }
-}
-
-@media only screen and (orientation:landscape) and (min-device-width: 300px) and (max-device-width: 768px)
-{
-       body{
-           display: none;
-       }  
-}
-.nav-items{
-    padding: 0px 15px 15px 15px;
+    margin-left: 2vw;
+    padding: 5px 5px 5px 50px;
+    float: left;
+    width: 45vw;
+    color: white;
+    font-size: 1.25vw;
+  }
+  #note-for-donors {
+    /* float: right; */
+    font-size: 1.5vw;
+  }
+  .gap {
+    height: 12vh;
+    background-color: black;
+  }
+  .title-box {
+    position: relative;
+    background-color: rgba(252, 198, 197, 50%);
+    width: max-content;
+    text-align-last: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3vh 3vh 0vh 3vh;
+    /* height: min-content; */
+  }
+  .frame {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
-
-
-.procedure{ 
-    padding-top: 5x;
-    height: 90vh;
-    background-color: black;
-}
-
-
-
-
-.back{
-    /* background: url('assets/Blood-Donation-1.jpg');   */
-    background-size:cover;
-    background-repeat:no-repeat;
-}
-
-.title{
+    width: 1300px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  .gallery {
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+  }
+  .contact-content {
+    color: white;
+    font-size: 1vw;
+    margin: 30vh 20vw 10vh 30vw;
+  }
+  .contact {
+    height: 58vh;
+    /* background-color: black; */
+  }
+  .gallery-item {
+    border-radius: 10px;
+    float: left;
+    height: 18vh;
+    width: 15vw;
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mySlidesdon {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    max-height: 450px;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+  }
+  #symbol {
+    font-size: 50px;
+  }
+  .title {
     font-size: 4vw;
-    color:#c30000;
-    font-family: 'Saira Condensed',sans-serif;
-}
+    color: #c30000;
+    font-family: 'Saira Condensed', sans-serif;
+  }
 
-.welcome{
-    font-family: 'Nunito',sans-serif;
+  .welcome {
+    font-family: 'Nunito', sans-serif;
     color: #c30000;
     font-weight: 1000;
     font-size: 2vw;
     letter-spacing: 0.5vh;
-}
+  }
 
-.heros{
-    font-family: 'Poppins',sans-serif;
+  .heros {
+    font-family: 'Poppins', sans-serif;
     color: #c30000;
     font-size: 2vw;
     font-weight: bold;
+  }
+  .heading {
+    font-size: 2vw;
+    font-weight: bolder;
+  }
 }
 
-.image{
+/* Laptop md */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+  html {
     height: 100%;
-    width: 100%;
-}
-
-.plasma-logo{
-    align-items: center;
-    height: 12vh;
-    width: 12vh;
-}
-.fab{
-    padding-right: 15px;
-    font-size: 2.8rem;
-    color: #FFF;    
-}
-
-.fab:hover{
-    color: white;
+  }
+  .tabs {
+    padding: 0px 15px 0px 15px;
+    color: #fff;
     text-decoration: none;
+    font-size: larger;
+  }
+  .tabs:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .about {
+    margin-top: 0px;
+    height: 90vh;
+    background-color: black;
+  }
+  .bg-img {
+    height: 100vh;
+    width: 200vh;
+    background-repeat: no-repeat;
+    background-image: url('./assets/background.jpeg');
+    background-size: cover;
+  }
+  .about-content {
+    background-color: black;
+    margin-left: 75%;
+    padding: 5px 5px 5px 50px;
+    float: left;
+    width: 45vw;
+    color: white;
+    font-size: 1.5em;
+  }
+  #vallam-incident {
+    /* float: right; */
+    font-size: 1.5em;
+  }
+  .procedure-content {
+    background-color: black;
+    margin-left: 5%;
+    padding: 5px 5px 5px 50px;
+    float: left;
+    width: 45vw;
+    color: white;
+    font-size: 1.25em;
+  }
+
+  #note-for-donors {
+    /* float: right; */
+    font-size: 1.25em;
+  }
+  .gap {
+    height: 12vh;
+    background-color: black;
+  }
+  .title-box {
+    position: relative;
+    background-color: rgba(252, 198, 197, 50%);
+    width: max-content;
+    text-align-last: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3vh 3vh 0vh 3vh;
+    /* height: min-content; */
+  }
+  .frame {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1300px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  .gallery {
+    height: 40vh;
+    background-color: rgb(0, 0, 0);
+  }
+  .contact-content {
+    color: white;
+    font-size: 1vw;
+    margin: 30vh 20vw 10vh 30vw;
+  }
+  .contact {
+    height: 58vh;
+    /* background-color: black; */
+  }
+  .gallery-item {
+    border-radius: 10px;
+    float: left;
+    height: 18vh;
+    width: 15vw;
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mySlidesdon {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    max-height: 450px;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+  }
+  #symbol {
+    font-size: 50px;
+  }
+  .title {
+    font-size: 4vw;
+    color: #c30000;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .welcome {
+    font-family: 'Nunito', sans-serif;
+    color: #c30000;
+    font-weight: 1000;
+    font-size: 2vw;
+    letter-spacing: 0.5vh;
+  }
+
+  .heros {
+    font-family: 'Poppins', sans-serif;
+    color: #c30000;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .heading {
+    font-size: 2vw;
+    font-weight: bolder;
+  }
 }
 
+/* Mobile */
+@media only screen and (orientation: portrait) and (min-device-width: 300px) and (max-device-width: 768px) {
+  html {
+    height: 100%;
+  }
+  .tabs {
+    padding: 0px 15px 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+  }
+  .tabs:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .about {
+    margin-top: 0px;
+    height: 75vh;
+    background-color: black;
+  }
+  .conheight {
+    height: 120vh;
+  }
+  .bg-img {
+    height: 100%;
+    width: 90vh;
+    background-repeat: no-repeat;
+    background-image: url('./assets/background.jpeg');
+    background-size: cover;
+  }
+  .about-content {
+    background-color: black;
+    padding: 7px 7px 7px 1px;
+    width: 130%;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: white;
+    font-size: 2.5em;
+  }
+  #vallam-incident {
+    /* float: right; */
+    font-size: 2.5em;
+  }
+  .procedure-content {
+    background-color: black;
+    margin-left: 75%;
+    padding: 5px 5px 5px 50px;
+    float: left;
+    width: 45vw;
+    color: white;
+    font-size: 1.25em;
+  }
 
-* {box-sizing: border-box}
-.mySlides {
-    display: none;
+  #note-for-donors {
+    font-size: 1.25em;
+  }
+  .gap {
+    height: 12vh;
+    background-color: black;
+  }
+  .title-box {
+    position: relative;
+    background-color: rgba(252, 198, 197, 50%);
+    width: max-content;
+    text-align-last: center;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    padding: 3vh 3vh 0vh 3vh;
+    /* height: min-content; */
+  }
+  .frame {
+    display: flex;
+    margin-left: 5%;
+    justify-content: left;
     align-items: center;
-    margin: auto;
-    text-align:center;
-    vertical-align: center;
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+  }
+  .gallery {
+    height: 40vh;
+    width: 90vh;
+    background-color: rgb(0, 0, 0);
+  }
+  .contact-content {
+    color: white;
+    font-size: 2em;
+    margin-top: auto;
+    margin-left: 20%;
+  }
+  .contact {
+    height: 30vh;
+    /* background-color: black; */
+  }
+  .gallery-item {
+    border-radius: 10px;
+    float: left;
+    height: 18vh;
+    width: 15vw;
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mySlidesdon {
+    max-width: 1300px;
+    max-height: 600px;
+  }
+  #symbol {
+    font-size: 100px;
+  }
+  .title {
+    font-size: 5vw;
+    color: #c30000;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .welcome {
+    font-family: 'Nunito', sans-serif;
+    color: #c30000;
+    font-weight: 1000;
+    font-size: 3vw;
+    letter-spacing: 0.5vh;
+  }
+
+  .heros {
+    font-family: 'Poppins', sans-serif;
+    color: #c30000;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .heading {
+    font-size: 5vw;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-device-height: 300px) and (max-device-height: 768px) {
+  html,
+  body {
+    display: none;
+  }
+}
+.nav-items {
+  padding: 0px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.procedure {
+  padding-top: 5x;
+  height: 90vh;
+  background-color: black;
+}
+
+.back {
+  /* background: url('assets/Blood-Donation-1.jpg');   */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.plasma-logo {
+  align-items: center;
+  height: 12vh;
+  width: 12vh;
+}
+.fab {
+  padding-right: 15px;
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.fab:hover {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+  display: none;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
 }
 
 .donimage {
-    margin: auto;
-    max-width: 600px;
-    max-height: 450px; 
-    padding-top:15vh;
-    text-align:center;
-    align-items: center;
-    position: relative;   
+  margin: auto;
+  max-width: 600px;
+  max-height: 450px;
+  padding-top: 15vh;
+  text-align: center;
+  align-items: center;
+  position: relative;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    align-items: center;
-  
-  width:800px;
+  align-items: center;
+
+  width: 800px;
   height: 550px;
   position: relative;
   margin: auto;
@@ -495,14 +537,15 @@ body{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  background-color: #FFF;
+  background-color: #fff;
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 18px;
@@ -518,9 +561,10 @@ body{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: rgba(255, 255, 255, 0.8);
-  color: #FFF;
+  color: #fff;
 }
 
 /* The dots/bullets/indicators */
@@ -535,7 +579,8 @@ body{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -548,16 +593,28 @@ body{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
