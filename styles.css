@@ -261,7 +261,7 @@ body{
 }
 
 /* Mobile */
-@media only screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: portrait)
+@media only screen and (orientation:portrait) and (min-device-width: 300px) and (max-device-width: 768px)
 {
     .tabs{
         padding: 0px 15px 0px 15px;
@@ -280,7 +280,7 @@ body{
     
 }
 .conheight{
-    height: 100vh;
+    height: 120vh;
 }
     .bg-img{
         height: 100%;
