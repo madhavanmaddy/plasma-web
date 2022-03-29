@@ -19,15 +19,16 @@ a{
 a:hover{
     text-decoration: none;
 }
-html{
-    height: 100%;
-}
+
 body{
     overflow-x: hidden;
     height: 100%;
 }
 /* Laptop bg */
 @media only screen and (min-device-width : 1441px) and (max-device-width : 2460px) {
+    html{
+        height: 100%;
+    }
     .tabs{
         padding: 0px 15px 0px 15px;
         color: #FFF;
@@ -146,6 +147,9 @@ body{
 /* Laptop md */
 
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1440px){
+    html{
+        height: 100%;
+    }
     .tabs{
         padding: 0px 15px 0px 15px;
         color: #FFF;
@@ -263,6 +267,131 @@ body{
 /* Mobile */
 @media only screen and (orientation:portrait) and (min-device-width: 300px) and (max-device-width: 768px)
 {
+    html{
+        height: 100%;
+    }
+    .tabs{
+        padding: 0px 15px 0px 15px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    .tabs:hover{
+        text-decoration: none;
+        color: #FFF;
+    }
+.about{
+    margin-top: 0px;
+    height: 75vh;
+    background-color: black;
+    
+}
+.conheight{
+    height: 120vh;
+}
+    .bg-img{
+        height: 100%;
+        width: 90vh;
+        background-repeat: no-repeat;
+        background-image: url("./assets/background.jpeg");
+        background-size: cover;
+    }
+    .about-content{
+        background-color: black;
+        padding: 7px 7px 7px 1px;
+        width: 130%;
+        height: auto;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        color: white;
+        font-size: 2.5em;
+    }
+    #vallam-incident{
+        /* float: right; */
+        font-size: 2.5em;
+
+    }
+    .procedure-content{
+        background-color: black;
+        margin-left: 75%; 
+        padding: 5px 5px 5px 50px;
+        float: left;
+        width: 45vw;
+        color: white;
+        font-size: 1.25em;
+    }
+    
+    #note-for-donors{
+        font-size: 1.25em;
+    }
+    .gap{
+        height: 12vh;
+        background-color: black;
+    }
+    .title-box{
+        position: relative;
+        background-color: rgba(252,198,197,50%);
+        width: max-content;
+        text-align-last: center;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        padding: 3vh 3vh 0vh 3vh;
+        /* height: min-content; */
+    }
+    .frame{
+        display: flex;
+        margin-left: 5%;
+        justify-content: left;
+        align-items: center;
+        width: 1500px;
+        height: 800px;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+    }
+    .gallery{
+        height: 40vh;
+        width: 90vh;
+        background-color: rgb(0, 0, 0);
+    }
+    .contact-content{
+        color: white;
+        font-size: 2em;
+        margin-top: auto;
+        margin-left: 20%;
+    }
+    .contact{
+        height: 30vh;
+        /* background-color: black; */
+    }
+    .gallery-item{
+        border-radius: 10px;
+        float: left;
+        height: 18vh;
+        width: 15vw;
+        margin: 10px 10px 10px 10px;
+        background-color: red;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;    
+    }
+    .mySlidesdon {
+        max-width: 1300px;
+        max-height: 600px;
+    }
+    #symbol{
+        font-size:100px;
+    }
+}
+
+@media only screen and (orientation:landscape) and (min-device-width: 300px) and (max-device-width: 768px)
+{
+    html{
+        height: 100%;
+        transform: rotate(-90deg);
+    }
+
     .tabs{
         padding: 0px 15px 0px 15px;
         color: #FFF;
