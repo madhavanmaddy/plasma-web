@@ -1,11 +1,4 @@
-.navbar-nav {
-  width: 100%;
-  height: 12vh;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
+
 * {
   outline: none;
   border: 0px;
@@ -25,9 +18,17 @@ body {
   height: 100%;
 }
 /* Laptop bg */
-@media only screen and (min-device-width: 1441px) and (max-device-width: 2460px) {
+@media only screen and (min-device-width: 1441px) and (max-device-width: 2560px) {
   html {
     height: 100%;
+  }
+  .navbar-nav {
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   .tabs {
     padding: 0px 15px 0px 15px;
@@ -165,13 +166,31 @@ body {
     font-size: 2vw;
     font-weight: bolder;
   }
+  .plasma-logo {
+    align-items: left;
+    height: 12vh;
+    width: 12vh;
+    float: left;
+  }
+  .sastra-logo {
+    margin-top:2vh;
+    height: 8vh;
+  }
 }
 
 /* Laptop md */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 500px) and (max-device-width: 1440px) {
   html {
     height: 100%;
+  }
+  .navbar-nav {
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   .tabs {
     padding: 0px 15px 0px 15px;
@@ -308,12 +327,30 @@ body {
     font-size: 2vw;
     font-weight: bolder;
   }
+  .plasma-logo {
+    align-items: left;
+    height: 12vh;
+    width: 12vh;
+    float: left;
+  }
+  .sastra-logo {
+    margin-top:2vh;
+    height: 8vh;
+  }
 }
 
 /* Mobile */
-@media only screen and (orientation: portrait) and (min-device-width: 300px) and (max-device-width: 768px) {
+@media only screen and (orientation: portrait) and (min-device-width: 300px) and (max-device-width: 500px) {
   html {
     height: 100%;
+  }
+  .navbar-nav {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   .tabs {
     padding: 0px 15px 0px 15px;
@@ -450,6 +487,16 @@ body {
     font-size: 5vw;
     font-weight: bolder;
   }
+  .plasma-logo {
+    align-items: left;
+    height: 5vh;
+    width: 5vh;
+    float: left;
+  }
+  .sastra-logo {
+    margin-top:1.5vh;
+    height: 2vh;
+  }
 }
 
 @media only screen and (orientation: landscape) and (max-device-width: 768px) {
@@ -487,16 +534,6 @@ body {
   width: 100%;
 }
 
-.plasma-logo {
-  align-items: left;
-  height: 12vh;
-  width: 12vh;
-  float: left;
-}
-.sastra-logo {
-  margin-top:2vh;
-  height: 8vh;
-}
 .fab {
   padding-right: 15px;
   font-size: 2.8rem;
