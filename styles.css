@@ -499,7 +499,7 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 768px) {
   body {
     display: none;
   }
