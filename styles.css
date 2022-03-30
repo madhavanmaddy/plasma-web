@@ -169,7 +169,7 @@ body {
 
 /* Laptop md */
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1440px) {
   html {
     height: 100%;
   }
@@ -452,8 +452,7 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) and (min-device-height: 300px) and (max-device-height: 768px) {
-  html,
+@media only screen and (orientation: landscape) and (max-device-width: 768px) {
   body {
     display: none;
   }
@@ -489,9 +488,14 @@ body {
 }
 
 .plasma-logo {
-  align-items: center;
+  align-items: left;
   height: 12vh;
   width: 12vh;
+  float: left;
+}
+.sastra-logo {
+  margin-top:2vh;
+  height: 8vh;
 }
 .fab {
   padding-right: 15px;
